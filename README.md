@@ -1,8 +1,9 @@
-# Career-Tracker-Database
+# Career Tracker Database
 
 This repository contains the SQL scripts for the Career Tracker system, a dedicated tool designed to help job seekers effectively manage and organize their job applications, interviews, and related details. The primary users of this system are university students, recent graduates, and professionals actively seeking internships, co-ops, or full-time positions.
 
-1. System Overview
+## 1. System Overview
+
 The Career Tracker is a prototype designed to solve the common problem of managing the job search process, which is often done with scattered spreadsheets or notes. By providing a centralized database, it helps users:
 
 Log Applications: Create applications for specific companies and roles.
@@ -19,7 +20,9 @@ Add Notes: Attach personal notes to applications for follow-ups and key details.
 
 This system is built specifically for job tracking, offering a focused solution that is more structured than generic tools while avoiding the complexity of overly featured platforms.
 
-2. Database Schema
+
+## 2. Database Schema
+
 The database schema is structured to efficiently store all job tracking information. The main tables and their relationships are detailed in the Entity-Relationship Diagram (ERD).
 
 Key tables include:
@@ -42,10 +45,12 @@ contact: Stores contact information for recruiters.
 
 A full Entity-Relationship Diagram (ERD) is provided for a complete visual representation of the database design.
 
-3. SQL Query Examples
+## 3. SQL Query Examples
+
 The repository includes a collection of SQL query files that demonstrate how to interact with the database and extract valuable insights. These queries can be used for building analytics dashboards or custom reports.
 
-Informational Queries
+### Informational Queries
+
 These queries help users and developers understand the state of their job search:
 
 11_user_application_status.sql: Lists all applications for a specific user, including company, position, and current status.
@@ -66,13 +71,14 @@ These queries help users and developers understand the state of their job search
 
 19_user_applications_by_position_type_and_sponsorship.sql: Summarizes applications by position type and visa sponsorship status.
 
-Database Management Queries
+### Database Management Queries
 These scripts are useful for setting up and managing the database:
 
 10_restore_populated_database.sql: A full script to drop, create, and populate the entire database with sample data.
 
-Additional Operations
-Based on the file names, the repository also seems to include scripts for performing common CRUD (Create, Read, Update, Delete) operations, which are essential for the application's functionality:
+### Additional Operations
+
+This repository also includes scripts for performing common CRUD (Create, Read, Update, Delete) operations, which are essential for the application's functionality:
 
 50_add_new_application.sql
 
